@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BtDemo</string>
+    <string name="MainActivity_title">BtFingerPrinter</string>
+    <string name="CardInfoActivity_title">BtFingerPrinter</string>
+    <string name="search">Search</string>
+    <string name="searching">Searching…</string>
+    <string name="modify">Modify</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="verify">Verify</string>
+    <string name="user_manage">User Manage</string>
+    <string name="username">Username</string>
+    <string name="delete_all">Delete All</string>
+    <string name="add">Add</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="usercode">Usercode</string>
+    <string name="finger_id">FingerId</string>
+    <string name="verify_failed">Verify Failed</string>
+</resources>

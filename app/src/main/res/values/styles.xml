@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_band_light</item>
+        <item name="colorPrimaryDark">@color/blue_band_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/gray_bg</item>
+        <item name="android:actionMenuTextColor">@color/dark</item>
+    </style>
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+    <style name="id_info_tv">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textColorHint">@color/gray_dark</item>
+    </style>
+
+    <style name="button_order">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/stroke_button_bg</item>
+        <item name="android:textColor">@color/blue_band_dark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="button_finger">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">@drawable/white_btn_bg</item>
+        <item name="android:textColor">@color/blue_band_dark3</item>
+    </style>
+
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>
